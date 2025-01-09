@@ -1,21 +1,20 @@
-# CRUD API com Spring Boot
+# CRUD API com Spring Boot 🖥️🚀
 
-Este projeto é uma API simples de CRUD (Create, Read, Update, Delete) desenvolvida com Java e Spring Boot. O objetivo é fornecer uma estrutura básica para gerenciar entidades de usuário, utilizando as melhores práticas de desenvolvimento.
+Este projeto é uma API simples de CRUD (Create, Read, Update, Delete) desenvolvida com **Java Spring Boot**, integrando um banco de dados **MySQL** e utilizando **JPA/Hibernate** para gerenciar entidades. O objetivo é fornecer uma estrutura básica para gerenciar entidades de usuário, utilizando as melhores práticas de desenvolvimento.
 
-## Funcionalidades
+## 📋 Funcionalidades:
 
-- **Criar usuário:** Permite criar um novo registro de usuário.
-- **Listar usuários:** Recupera todos os registros de usuários armazenados no banco de dados.
-- **Atualizar usuário:** Permite modificar os dados de um usuário existente.
-- **Deletar usuário:** Remove um registro de usuário do sistema.
+- 🧾 **Criar usuário:** Permite criar um novo registro de usuário.
+- 🔍 **Listar usuários:** Recupera todos os registros de usuários armazenados no banco de dados.
+- ✏️ **Atualizar usuário:** Permite modificar os dados de um usuário existente.
+- ❌ **Deletar usuário:** Remove um registro de usuário do sistema.
 
-## Tecnologias utilizadas
-
-- **Java 17**
-- **Spring Boot 3**
-- **Maven**
-- **Banco de Dados MySQL**
-- **Docker Desktop**
+## 🛠️ Tecnologias utilizadas:
+- Java Spring Boot 🛡️
+- Banco de Dados MySQL 🗄️
+- Hibernate/JPA 🔄
+- Docker 🐳
+- Maven 🐘
 
 ## Estrutura do Projeto
 
@@ -34,7 +33,7 @@ Antes de executar o projeto, certifique-se de ter as seguintes ferramentas insta
 - **Maven**
 - **Docker** (opcional, caso queira usar o banco de dados MySQL via container)
 
-## Configuração
+##  🚀 Configuração
 
 1. Clone o repositório para sua máquina local:
 
@@ -68,7 +67,7 @@ docker run --name mysql-crud -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=crud
 mvn spring-boot:run
 ```
 
-## Endpoints
+## 📝 Endpoints principais:
 
 A API expõe os seguintes endpoints:
 
