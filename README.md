@@ -71,17 +71,17 @@ mvn spring-boot:run
 
 A API expõe os seguintes endpoints:
 
-- **POST /api/users**: Cria um novo usuário.
-- **GET /api/users**: Retorna a lista de usuários.
-- **GET /api/users/{id}**: Retorna os detalhes de um usuário específico.
-- **PUT /api/users/{id}**: Atualiza os dados de um usuário.
-- **DELETE /api/users/{id}**: Remove um usuário.
+- **POST /users**: Cria um novo usuário.
+- **GET /users**: Retorna a lista de usuários.
+- **GET /users/{id}**: Retorna os detalhes de um usuário específico.
+- **PUT /users/{id}**: Atualiza os dados de um usuário.
+- **DELETE /users/{id}**: Remove um usuário.
 
 ## Exemplos de Requisição
 
 ### Criar um usuário
 
-**POST /api/users**
+**POST users**
 
 ```json
 {
@@ -93,7 +93,7 @@ A API expõe os seguintes endpoints:
 
 ### Atualizar um usuário
 
-**PUT /api/users/1**
+**PUT users/UUID**
 
 ```json
 {
