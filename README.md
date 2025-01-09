@@ -1,6 +1,6 @@
 # CRUD API com Spring Boot 🖥️🚀
 
-Este projeto é uma API simples de CRUD (Create, Read, Update, Delete) desenvolvida com **Java Spring Boot**, integrando um banco de dados **MySQL** e utilizando **JPA/Hibernate** para gerenciar entidades. O objetivo é fornecer uma estrutura básica para gerenciar entidades de usuário, utilizando as melhores práticas de desenvolvimento.
+Este projeto é uma API simples de CRUD (Create, Read, Update, Delete) desenvolvida com **Java Spring Boot**, integrando um banco de dados **MySQL** via **Docker** e utilizando **JPA/Hibernate** para gerenciar entidades. O objetivo é fornecer uma estrutura básica para gerenciar entidades de usuário, utilizando as melhores práticas de desenvolvimento.
 
 ## 📋 Funcionalidades:
 
