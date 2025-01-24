@@ -1,4 +1,4 @@
-# CRUD API com Spring Boot 🖥️🚀
+# CRUD API 🖥️🚀
 
 Este projeto é uma API simples de CRUD (Create, Read, Update, Delete) desenvolvida com **Java Spring Boot**, integrando um banco de dados **MySQL** via **Docker** e utilizando **JPA/Hibernate** para gerenciar entidades. O objetivo é fornecer uma estrutura básica para gerenciar entidades de usuário, utilizando as melhores práticas de desenvolvimento.
 
@@ -110,8 +110,8 @@ O projeto inclui testes básicos para verificar a funcionalidade dos endpoints. 
 mvn test
 ```
 
-## Contribuição
+## Autor
+Felipe de Melo Brito
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
+https://www.linkedin.com/in/felipemelo1106
 ---
